@@ -1,0 +1,19 @@
+calculator.btn.digit.zero=id=com.google.android.calculator:id/digit_0
+calculator.btn.digit.one=id=com.google.android.calculator:id/digit_1
+calculator.btn.digit.two.id=com.google.android.calculator:id/digit_2
+calculator.btn.digit.two={'locator':"xpath=/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.LinearLayout/androidx.slidingpanelayout.widget.SlidingPaneLayout/android.widget.LinearLayout/android.view.ViewGroup[1]/android.widget.Button[8]", "desc":"The number 2"}
+calculator.btn.digit.three=id=com.google.android.calculator:id/digit_3
+calculator.btn.digit.four=id=com.google.android.calculator:id/digit_4
+calculator.btn.digit.five=id=com.google.android.calculator:id/digit_5
+calculator.btn.digit.six=id=com.google.android.calculator:id/digit_6
+calculator.btn.digit.seven=id=com.google.android.calculator:id/digit_7
+calculator.btn.digit.eight=id=com.google.android.calculator:id/digit_8
+calculator.btn.digit.nine=id=com.google.android.calculator:id/digit_9
+
+calculator.btn.op.plus=id=com.google.android.calculator:id/op_add
+calculator.btn.op.multiply=id=com.google.android.calculator:id/op_mul
+calculator.btn.op.divide=id=com.google.android.calculator:id/op_div
+calculator.btn.op.subtract=id=com.google.android.calculator:id/op_sub
+
+calculator.btn.equals=id=com.google.android.calculator:id/eq
+calculator.view.output=id=com.google.android.calculator:id/result_final

@@ -12,7 +12,7 @@ public class StepsLibrary {
 	 */
 	@QAFTestStep(description = "search for {0}")
 	public static void searchFor(String searchTerm) {
-		sendKeys(searchTerm, "input.search");
-		click("button.search");
+//		sendKeys(searchTerm, "input.search");
+//		click("button.search");
 	}
 }

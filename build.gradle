@@ -38,8 +38,13 @@ repositories {
 
 //Add dependencies here
 dependencies {
-    compile 'com.qmetry:qaf:2.1.10'
-    compile 'com.qmetry:qaf-support:2.1.10'
+	// https://mvnrepository.com/artifact/com.qmetry/qaf
+	compile group: 'com.qmetry', name: 'qaf', version: '3.0.0'
+	// https://mvnrepository.com/artifact/com.qmetry/qaf-support
+	compile group: 'com.qmetry', name: 'qaf-support', version: '3.0.0'
+	compile 'io.appium:java-client:7.5.1'
+	// https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-support
+
 }
 
 
