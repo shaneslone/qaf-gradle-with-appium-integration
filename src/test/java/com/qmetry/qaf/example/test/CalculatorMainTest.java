@@ -6,10 +6,16 @@ import com.qmetry.qaf.automation.ui.WebDriverTestCase;
 
 public class CalculatorMainTest extends WebDriverTestCase {
 
+	CalculatorMainPage calc = new CalculatorMainPage();
+
 	@Test
-	public void testTwoButtonText() {
-		CalculatorMainPage page = new CalculatorMainPage();
-		verifyTrue(page.getTwoText().equals("2"), "FAIL", "PASS");
+	public void testAddition() {
+		calc.getOne().click();
+		calc.getPlus().click();
+		calc.getTwo().click();
+		calc.getEquals().click();
+		assertTrue(calc.getResult().getText().equals("3"), "FAIL", "PASS");
+
 	}
 
 }
